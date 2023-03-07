@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 
 import PostsList from "../components/PostsList";
 
-function App() {
+function Posts() {
   return (
     <>
       <Outlet />
@@ -14,4 +14,4 @@ function App() {
   );
 }
 
-export default App;
+export default Posts;
